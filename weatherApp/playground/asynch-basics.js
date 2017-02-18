@@ -1,6 +1,5 @@
 console.log('Starting App');
 
-//first function is called a callback function
 setTimeout(() => {
   console.log('Inside of Callback');
 }, 2000);
@@ -10,3 +9,4 @@ setTimeout(() => {
 }, 0);
 
 console.log('Finishing App');
+
